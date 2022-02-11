@@ -43,14 +43,12 @@ namespace DapperPracticePerson
 
             #region Get
 
-            Console.WriteLine("Id ");
-            int id = int.Parse(Console.ReadLine());
-            Person per = rep.Get(id);
-            Console.WriteLine(per.Id + " " + per.FirstName + " " + per.Lastname + " " + per.Passport.Seria+per.Passport.Number);
+            //Console.WriteLine("Id ");
+            //int id = int.Parse(Console.ReadLine());
+            //Person per = rep.Get(id);
+            //Console.WriteLine(per.Id + " " + per.FirstName + " " + per.Lastname + " " + per.Passport.Seria+per.Passport.Number);
 
-            Console.WriteLine();
             #endregion
-
 
             #region Update
 
@@ -63,8 +61,6 @@ namespace DapperPracticePerson
             //rep.Delete(Getinfo.GetId());
 
             #endregion
-
-
 
             #region GetAll
 
